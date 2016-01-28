@@ -1,0 +1,12 @@
+Arduino Plotter
+===============
+
+A fun project I made with old dvd player drives. Computer
+reads a bmp image and sends each pixel value and its coordinates
+to Arduino via Serial port. Arduino moves the Pen assembly
+to the received coordinates and moves down Pen if pixel value is
+0 (bmp will have two pixel values only i.e., 0 for black 1 for white).
+
+Watch the plotter in action @
+https://www.youtube.com/watch?v=o3xikwagdq0&feature=youtu.be
+
